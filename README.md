@@ -1,6 +1,8 @@
 # IMDB-movie-Recommendation-System
 This project is designed to build a movie recommendation system using IMDb dataset. The recommendation system suggests movies similar to the user's preferences based on content similarity.
 
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7jwEzoZUXlzWQjutjweD8yGQP0fh-EbzXkA&usqp=CAU)
+
 ## Project Steps
 
 ### Step 1 - Dataset from IMDb Database
