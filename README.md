@@ -95,8 +95,12 @@ For more info, visit documentation: https://docs.streamlit.io
 Create streamlit model
 Inside the app.py file, import streamlit first and start with the code.
 
+---
 import  streamlit as st
 st.title('Movie Recommender System')
+
+---
+
 Now, to run the streamlit app, go to cmd with the current location and type:
 
 streamlit run filename.py
@@ -114,7 +118,6 @@ import pandas as pd
 import requests
 
 st.title('Movie Recommender System')
-
 
 def fetch_poster(movie_id):
     url = "https://api.themoviedb.org/3/movie/{}?api_key='YOUR API KEY'&language=en-US".format(movie_id)
@@ -143,7 +146,6 @@ def recommend(movie):
 movies_dict = pickle.load(open('movies.pkl','rb'))
 movies = pd.DataFrame(movies_dict)
 similarity = pickle.load(open('similarity.pkl','rb'))
-
 
 selected_movie_name = st.selectbox(
     "Type or select a movie from the dropdown",
@@ -177,8 +179,11 @@ To run the app, from your current working directory, open the terminal and type:
 
 ---
 streamlit run filename.py
+
 ---
 
 ## Let’s run:
-[![Watch the video]()](https://youtu.be/T-D1KVIuvjA)
+
+https://github.com/khushiyadav2022/IMDB-movie-Recommendation-System/assets/108923908/f5d1d250-3dc0-43bd-8dd3-37ad57204a7d
+
 
