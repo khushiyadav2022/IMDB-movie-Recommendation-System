@@ -1,7 +1,18 @@
 # IMDB-movie-Recommendation-System
 This project is designed to build a movie recommendation system using IMDb dataset. The recommendation system suggests movies similar to the user's preferences based on content similarity.
 
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7jwEzoZUXlzWQjutjweD8yGQP0fh-EbzXkA&usqp=CAU)
+<img width="500" align="center" alt="MOVIE_RECOMM" src="https://github.com/khushiyadav2022/IMDB-movie-Recommendation-System/assets/108923908/67ad5dba-853f-471a-8cf7-1106416088b7">
+
+# Dataset
+The dataset that we are using here is the IMDB Movie Dataset. Under this dataset, there are 3 files:
+
+1. Name Basics data.tsv 
+2. Title akas data.tsv
+3. Title Crew data.tsv
+   
+We are using all of these datasets. You can download the datasets from google drive.
+
+Goggle drive Link- https://drive.google.com/drive/folders/1f1HoMjU3lCC1nw8ZIWi_S7DSEfxuP0j9?usp=drive_link
 
 ## Project Steps
 
